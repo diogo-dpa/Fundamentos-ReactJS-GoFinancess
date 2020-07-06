@@ -19,8 +19,17 @@ export const Container = styled.div<ContainerProps>`
     nav {
       a {
         color: #fff;
+
+        width: 76px;
+        height: 24px;
+
         text-decoration: none;
         font-size: 16px;
+        
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        
         transition: opacity 0.2s;
 
         & + a {
@@ -29,6 +38,7 @@ export const Container = styled.div<ContainerProps>`
 
         &:hover {
           opacity: 0.6;
+          
         }
       }
     }
